@@ -27,6 +27,10 @@ Spotify webiste (API endpoint).
 When command will show You list with jobs, pick single job (by it's ID)
 to see it's detailed description. 
 
+Testing:
+
+ * `php ./bin/phpunit`
+
 ## Usage with docker
  
 Requirements:
