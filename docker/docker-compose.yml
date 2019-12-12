@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    phpfpm:
+        build: php-fpm
+        container_name: phpfpm
+        volumes:
+            - ../:/var/www/symfony:cached
+            - ./logs/symfony:/var/www/symfony/var/logs:cached
+        ports:
+            - 9000:9000
+        environment:
+            - APP_ENV=prod
