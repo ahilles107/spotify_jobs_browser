@@ -41,4 +41,3 @@ Installation:
   * `docker-compose run phpfpm composer install`
   * `docker-compose run phpfpm bin/console jobs:spotify`
   * `docker-compose run phpfpm bin/console jobs:spotify --disable-cache` - to discard cache
-  * `composer install`
